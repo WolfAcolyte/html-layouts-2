@@ -1,0 +1,75 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #999;
+    height: 100%;
+    padding: 3%;
+
+}
+.container{
+    background: white;
+    width: 92%;
+    overflow: hidden;
+    position: relative;
+}
+.cont1{
+    height: 27%;
+    padding: 4%;
+}
+.text{
+    font-size: 15px;
+    
+}
+.button{
+    height: 15%;
+    width: 20%;
+    margin-top: 10%;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-right: 3%;
+    /*border: 20px gray;*/
+    
+}
+.btn1{
+    background: red;
+    line-height: 150%;
+    white-space: nowrap;
+    
+    
+}
+.btn2{
+    background: blue;
+    line-height: 150%;
+    white-space: nowrap;
+    
+}
+.cont2{
+    height: 50%;
+    margin-top: 10%;
+    padding:4%;
+}
+.imgContainer{
+    background: no-repeat center center;
+    width: 100%;
+    height:45%;
+    margin-bottom: 5%;
+}
+footer{
+    background: black;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    color: white;
+}
+.tags{
+    float: right;
+    margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:100%;
+  
+
+}
